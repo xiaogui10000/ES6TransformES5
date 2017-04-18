@@ -2,7 +2,7 @@
 ---
 如果用其他工具配合 Babel 来做，可以见这里。不知道 Gulp 是什么？
 请先查看Gulp 入门指南。
-###依赖
+##依赖
 ----
 
 **安装依赖**
@@ -23,7 +23,7 @@
 
     npm install --save-dev babel-preset-es2015
 
-###Gulp
+##Gulp
 ---
 **Gulp 配置**
 gulpfile.js 的内容，形如
@@ -52,7 +52,7 @@ gulpfile.js 的内容，形如
         .pipe(gulp.dest("dist"));
     });
 
-###Babel 配置
+##Babel 配置
 ----
 在项目跟路径创建文件 .babelrc。内容为
 
@@ -60,7 +60,7 @@ gulpfile.js 的内容，形如
       "presets": ["es2015"]
     }
 
-###转换
+##转换
 ---
 命令行中执行
 
